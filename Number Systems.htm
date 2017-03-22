@@ -1,0 +1,192 @@
+
+<!-- saved from url=(0068)file:///C:/Documents%20and%20Settings/Mickey/Desktop/NumSystems.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link rel="stylesheet" type="text/css" href="./Number Systems_files/style.css">
+<title> Number Systems 
+</title>
+</head>
+<body bgcolor="#d8d8d8">
+
+<h1> Number Systems </h1>
+<h2> What is a Number System? </h2>
+<p> a number system is a writing system that is used to express numbers. 
+<br>
+The number system that we most commonly use is called decimal(base 10). This system contains 10 numbers; 0 to 9. Hence base 10. Other number systems include binary(base 2) and hexadecimal(base 16). Binary only contains two numbetrs, 0 and 1. Hexadecimal contains 0 to 9 as well as A to F. A reprosents 10 B is 11 and it goes all the way to F which is 15.
+</p>
+<h2> What are Positional Values? </h2>
+<p>
+Positional values are a method of representing numbers.In the decimal system, digits to the left of the decimal point represent ones, tens, hundreds, thousands, etc. They are always multiplying by 10 and because of that, they can be expressed as powers of 10. 1 is 10<sup>0</sup>, 10 is 10<sup>1</sup> 100 is 10<sup>2</sup>, ect. Digits to the right of the decimal point go in an opposite pattern. tenths, hundreths, and thousandths bnecome 10<sup>-1</sup>,10<sup>-2</sup>, and 10<sup>-3</sup> respectively. 
+An example would be the value <i>123.456</i> which breaks down into 
+<br>
+1(10<sup>2</sup>) + 2(10<sup>1</sup>) 3(10<sup>0</sup>) + 4(10<sup>-1</sup>) + 5(10<sup>2</sup>) + 6(10<sup>-3</sup>)
+<br>
+In the binary number system, these values are all powers of two, so a number such as <i>1001.101</i> would break down into
+<br>
+1(2<sup>3</sup>) + 0(2<sup>2</sup>) + 0(2<sup>1</sup>) + 1(2<sup>0</sup>) + 1(2<sup>-1</sup>) + 0(2<sup>-2</sup>) + 1(2<sup>-3</sup>)
+<br>
+However in the hexadecimal system all of the posional values become powers of 16, an example would be <i>8A2.5D6</i> which breaks down into
+<br>
+8(16<sup>2</sup>) + 10(16<sup>1</sup>) + 2(16<sup>0</sup>) + 5(16<sup>-1</sup>) + 14(16<sup>-2</sup>) + 6(16<sup>-3</sup>)
+</p>
+<h2> Counting </h2>
+<p> In any number system, counting is accomplished by advancing the rightmost or least significant digit by increments of one. When the digit being advanced has reached the last available symbol, it next returns to the first symbol and the digit to its left advances one unit.
+<br>
+The following chart outlines how these rules are used to count all the way to the value of 15<sub>10</sub>
+</p>
+<table>
+<tbody><tr>
+<td><b>Base 10</b></td>
+<td><b>Base 2</b></td>		
+<td><b>Base 16</b></td>
+</tr>
+<tr>
+<td>0</td>
+<td>0</td>		
+<td>0</td>
+</tr>
+<tr>
+<td>1</td>
+<td>1</td>		
+<td>1</td>
+</tr>
+<tr>
+<td>2</td>
+<td>10</td>		
+<td>2</td>
+</tr>
+<tr>
+<td>3</td>
+<td>11</td>		
+<td>3</td>
+</tr>
+<tr>
+<td>4</td>
+<td>100</td>		
+<td>4</td>
+</tr>
+<tr>
+<td>5</td>
+<td>101</td>		
+<td>5</td>
+</tr>
+<tr>
+<td>6</td>
+<td>110</td>		
+<td>6</td>
+</tr>
+<tr>
+<td>7</td>
+<td>111</td>		
+<td>7</td>
+</tr>
+<tr>
+<td>8</td>
+<td>1000</td>		
+<td>8</td>
+</tr>
+<tr>
+<td>9</td>
+<td>1001</td>		
+<td>9</td>
+</tr>
+<tr>
+<td>10</td>
+<td>1010</td>		
+<td>A</td>
+</tr>
+<tr>
+<td>11</td>
+<td>1011</td>		
+<td>B</td>
+</tr>
+<tr>
+<td>12</td>
+<td>1100</td>		
+<td>C</td>
+</tr>
+<tr>
+<td>13</td>
+<td>1101</td>		
+<td>D</td>
+</tr>
+<tr>
+<td>14</td>
+<td>1110</td>		
+<td>E</td>
+</tr>
+<tr>
+<td>15</td>
+<td>1111</td>		
+<td>F</td>
+</tr>
+</tbody></table>
+<h2> Conversions </h2>
+<h3> Binary To Decimal Conversion by Positional Values </h3>
+<p>
+Numbers in the binary system can be converted to decimal by adding the positional values corresponding to the digits of the binary number.
+<br>
+Example: 10111<sub>2</sub> =&gt; Decimal
+<br>
+= 1((2<sup>4</sup>) + 0(2<sup>3</sup>) + 1(2<sup>2</sup>) + 1(2<sup>1</sup>) + 1(2<sup>0</sup>)
+<br>
+= 16 + 0 + 4 + 2 + 1
+<br>
+= 23<sub>10</sub>
+</p>
+<h3>Decimal to Binary Conversion by Remainder Method </h3>
+<p>
+By successively dividing a number in the decimal system by two, it can be converted into the decimal system. The remainder of each division is retained as a digit or bit of the binary number, with the first remainder as the rightmost bit.
+<br>
+Example: Converting 43<sub>10</sub> into binary
+<br>
+43 / 2 = 21 R 1
+<br>
+21 / 2 = 10 R 1
+<br>
+10 / 2 =  5 R 0
+<br>
+ 5 / 2 =  2 R 1
+<br>
+ 2 / 2 =  1 R 0
+<br>
+ 1 / 2 =  0 R 1
+<br>
+Therefore 43<sub>10</sub> = 101011<sub>2</sub>
+</p>
+<h3>Decimal to Hexadecimal Conversion Through Remainder Method </h3>
+<p> 
+The remainder method that was used to convert decimal into binary can still be used to convert decimal into hexadecimal. The only difference is that instead of dividing by 2, we will now be dividing by 16. The rest of the process remains the same.
+Example: 
+<br>
+5274<sub>10</sub> =&gt; Hexadecimal
+<br>
+5274 / 16 = 329 R 10
+<br>
+329 / 16 = 20 R 9
+<br>
+20 / 16 = 1 R 4 
+<br>
+1 / 16 = 0 R 1
+<br>
+Therefore 5274<sub>10</sub> = 149A<sub>16</sub>
+</p>
+<h3> Hexadecimal to Decimal Conversions by Positional Values </h3>
+<p>
+Numbers in hexadecimal can be converted to decimal in the same way that binary is converted to decimal. To convert hexadecimal to decimal, we must simply multiply the positional values with their coresponding hexadecimal digits, and add them all together.
+<br>
+Example: B67F<sub>16</sub> =&gt; Decimal
+<br>
+= 11(16<sup>3</sup>) + 6(16<sup>2</sup>) + 7(16<sup>1</sup>) + 15(16<sup>0</sup>)
+<br>
+= 11(4096) + 6(256) + 7(16) + 15(1)
+<br>
+= 45056 + 1536 + 112 + 15
+<br>
+= 46,719<sub>10</sub>
+</p>
+<marquee direction="right" scrollamount="10"> 
+<img src="./Number Systems_files/running.gif">
+
+</marquee>
+
+</body></html>

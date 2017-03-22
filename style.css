@@ -1,0 +1,21 @@
+h1 {text-align: center}
+h2 {text-align: left}
+h3 {text-align: left}
+h4 {text-align: left}
+h5 {font-family: "Freestyle Script", Times, serif; text-align: center}
+ul
+{ list-style-type:none; margin:0; padding:0; overflow:hidden; }
+li
+{ float:left; }
+a:link,a:visited
+{ display:block; width:200px; background-color:#a2a2a2; font-size:30px;text-align:center; text-decoration: none; padding:4px;}
+a:hover,a:active
+{
+background-color:#e4e4e4;
+}
+table,th,td
+{
+border:1px solid black;
+border-collapse:collapse;
+width:300px
+}
